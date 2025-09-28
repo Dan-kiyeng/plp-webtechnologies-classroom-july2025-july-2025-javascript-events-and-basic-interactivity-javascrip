@@ -1,4 +1,4 @@
-# 🧠 Assignment: Interactive Web Pages with JavaScript
+# 🧠 Assignment: Interactive Web Pages with JavaScript..
 
 Welcome to the exciting world of interactivity! This assignment is all about **making your web pages feel alive**. You’ll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful. 🚀
 
