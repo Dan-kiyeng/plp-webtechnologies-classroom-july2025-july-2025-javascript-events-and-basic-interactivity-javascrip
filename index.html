@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Interactive Web Page</h1>
+    <button id="theme-toggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Part 1: Event Handling -->
+    <section>
+      <h2>🎮 Counter Game</h2>
+      <p>Clicks: <span id="counter">0</span></p>
+      <button id="increase-btn">Increase</button>
+      <button id="reset-btn">Reset</button>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section>
+      <h2>❓ FAQ Section</h2>
+      <div class="faq">
+        <button class="faq-toggle">What is JavaScript?</button>
+        <p class="faq-answer">JavaScript makes web pages dynamic and interactive!</p>
+      </div>
+      <div class="faq">
+        <button class="faq-toggle">What is DOM?</button>
+        <p class="faq-answer">The DOM is a programming interface for web documents.</p>
+      </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+      <h2>📋 Sign Up Form</h2>
+      <form id="signup-form" novalidate>
+        <label>
+          Name:
+          <input type="text" id="name" required>
+          <small class="error"></small>
+        </label>
+        <label>
+          Email:
+          <input type="email" id="email" required>
+          <small class="error"></small>
+        </label>
+        <label>
+          Password:
+          <input type="password" id="password" required>
+          <small class="error"></small>
+        </label>
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="form-success" class="success-message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
